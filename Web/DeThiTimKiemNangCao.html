@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test Advance Search</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.min.css" />
+    <script src="./bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-4.0.0-dist/js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <!-- <header class="header">
+        <ul class="nav justify-content-end bg-custom-green">
+            <li class="nav-item my-2">
+                <a class="nav-link active text-light" href="#">ĐỀ THI</a>
+            </li>
+            <li class="nav-item my-2">
+                <a class="nav-link text-light" href="#">BÀI HỌC</a>
+            </li>
+            <li class="nav-item my-2">
+                <a class="nav-link text-light" href="#">UPLOAD</a>
+            </li>
+            <li class="nav-item my-2 mr-5">
+                <button type="button" class="btn" href="#">ĐĂNG KÝ</button>
+            </li>
+        </ul>
+    </header> -->
+    <nav class="navbar navbar-expand-lg bg-custom-green">
+        <a class="navbar-brand" href="Home.html"><img src="logo.png" width="64" height="64"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item my-2">
+                    <a class="nav-link active text-light" href="">ĐỀ THI</a>
+                </li>
+                <li class="nav-item my-2">
+                    <a class="nav-link text-light" href="#">BÀI HỌC</a>
+                </li>
+                <li class="nav-item my-2">
+                    <a class="nav-link text-light" href="#">UPLOAD</a>
+                </li>
+                <li class="nav-item my-2 mr-5">
+                    <button type="button" class="btn" href="#">ĐĂNG KÝ</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container my-3 rounded">
+        <div class="content">
+            <form>
+                <div class="search-div-custom">
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Tên: </p>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="search-form">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Biên soạn: </p>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="search-form">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Tên: </p>
+                        </div>
+                        <div class="col-10">
+                            <span class="checkbox-form-1"><input type="checkbox">Toán</span>
+                            <span class="checkbox-form"><input type="checkbox">Văn</span>
+                            <span class="checkbox-form"><input type="checkbox">Lý</span>
+                            <span class="checkbox-form"><input type="checkbox">Hóa</span>
+                            <span class="checkbox-form"><input type="checkbox">Địa</span>
+                            <span class="checkbox-form"><input type="checkbox">Sử</span>
+                            <span class="checkbox-form"><input type="checkbox">Anh</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Độ khó: </p>
+                        </div>
+                        <div class="col-10">
+                            <select name="" id="">
+                                <option value="greater">lớn hơn</option>
+                                <option value="less">nhỏ hơn</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Số câu: </p>
+                        </div>
+                        <div class="col-10">
+                            <select name="" id="">
+                                <option value="greater">lớn hơn</option>
+                                <option value="less">nhỏ hơn</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Năm: </p>
+                        </div>
+                        <div class="col-10">
+                            <select name="" id="">
+                                <option value="greater">lớn hơn</option>
+                                <option value="less">nhỏ hơn</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <p class="search-form-title">Xếp theo: </p>
+                    </div>
+                    <div class="col-10">
+                        <span class="checkbox-form-1"><input type="checkbox">Tên</span>
+                        <span class="checkbox-form"><input type="checkbox">Đánh giá</span>
+                        <span class="checkbox-form"><input type="checkbox">Ngày cập nhập</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <p class="search-form-title">Xếp theo lượt: </p>
+                    </div>
+                    <div class="col-10">
+                        <span class="checkbox-form-1"><input type="checkbox">Tổng</span>
+                        <span class="checkbox-form"><input type="checkbox">12 tháng</span>
+                        <span class="checkbox-form"><input type="checkbox">6 tháng</span>
+                        <span class="checkbox-form"><input type="checkbox">3 tháng</span>
+                        <span class="checkbox-form"><input type="checkbox">1 tháng</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="result">
+            <div class="row search-result">
+                <div class="col-12 search-result-header">
+                    <p class="search-result-header-title">KẾT QUẢ TÌM KIẾM</p>
+                </div>
+            </div>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <p>Đề thi thử THPT 2020</p>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: Bộ GD&DT</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
+                </div>
+            </div>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <p>Đề thi chính thức 2019</p>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: Bộ GD&DT</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
+                </div>
+            </div>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <p>Đề thi chính thức 2019</p>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: Bộ GD&DT</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
+                </div>
+            </div>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <p>Đề thi chính thức 2019</p>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: Bộ GD&DT</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
+                </div>
+            </div>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <p>Đề thi chính thức 2019</p>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: Bộ GD&DT</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-light bg-custom-green mt-n10">
+        <p>Copyright © 2019 UIT ®</p>
+    </footer>
+</body>
+
+</html>

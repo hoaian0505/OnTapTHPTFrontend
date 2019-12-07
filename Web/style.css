@@ -1,3 +1,7 @@
+radio-inline.bg-custom-green {
+  background-color: #687864;
+}
+
 .bg-custom-green {
   background-color: #687864;
 }
@@ -16,6 +20,48 @@ body {
   height: auto;
 }
 
+.search-form{
+  width: 95%;
+}
+
+.search-div-custom{
+  background-color: #F2F2F2;
+  padding-top: 10px;
+}
+
+.search-form-title{
+  padding-left: 25px;
+}
+
+.checkbox-form{
+  padding-left: 50px;
+}
+
+.search-result{
+  padding-bottom: 5px;
+}
+
+.search-result-header{
+  background-color: #33708D;
+  text-align: center;
+}
+
+.search-result-header-title{
+  color: white;
+  font-weight: bold;
+  padding-top: 12px;
+  height: 30px;
+}
+
+.search-result-content{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.search-result-content-1{
+  text-align: left;
+}
 .opacity-1 {
   opacity: 0.25;
 }
@@ -365,4 +411,9 @@ a:active {
 
 .DivKTBH{
   margin-bottom: 100px;
+}
+
+.imageBaiHoc{
+  height: 100%;
+  width: 100%;
 }
