@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <script src="./bootstrap-4.0.0-dist/js/jquery-3.4.1.min.js"></script>
 </head>
@@ -58,59 +58,63 @@
             </ul>
         </div>
     </nav>
-    <div class="container mt-3 mb-3 shadow rounded">
-      <div class="row justify-content-center bg-light">
-          <h3 class="pt-4 pb-3 text-custom-red "><strong>ĐỀ THI THỬ THPT 2020</strong></h3>
-      </div>
-    </div>
-    <div class="container shadow rounded">
-        <div class="">
-            <div class="row bg-light d-flex">
-                <div>
-                  <h4 class="pt-4 pb-3 pl-4 text-custom-red">Tổng thời gian: 00:00:09</h4>
-                </div>
-                <div class="ml-auto pr-5 py-3">
-                  <h4 class="mt-2 text-custom-red">Tổng số câu:40</a>
-                </div>
+    <div class="container my-5 shadow rounded">
+        <div class="content">
+                
+            <div class="row bg-light" style="margin-bottom:-45px">
+                <a href="DanhSachBaiHocTungLoai.html" target="_blank" style="display:inline-block" class=""><i class="fa fa-toggle-left" style="color:blueviolet;font-size: 32px"></i></a>
+            </div>    
+            <div class="row justify-content-center bg-light">
+                <h3 style="align-items:center;" class="pt-4 pb-3 text-custom-red"><strong>Thông Tin Bài Học</strong></h3>
             </div>
-            <hr class="hrleft" >
             <div class="row justify-content-center">
-                <div class="pt-5 pb-5 pr-5">
-                    <br>
-                    <img src="dethi_content.jpg" width="120%">
-                    <br>
-                    <br>
+                <h2 class="pt-3 pb-2">XÁC SUẤT THỐNG KÊ</h2>
+            </div>
+            <div class="row">
+                <div class="col-6" id="test-info">
+                    <p><strong>Mô tả bài học:</strong></p>
+                    <p>Lý thuyết xác suất là cơ sở của thống kê toán, một ngành của toán học được sử dụng phổ biến ngày nay. </p>
+                    <p><strong>Số slide:</strong> 40.</p>
+                </div>
+                <div class="col-6" id="category">
+                    <p><strong>Bộ môn:</strong> Toán học.</p>
+                    <p><strong>Năm:</strong> 2020</p>
                 </div>
             </div>
-            <hr class="hr">
-            <div class="row justify-content-center">
-              <h5 ><strong>Đáp án : </strong></h5>
-              <input class="ml-3 dapan" disabled>
-            </div>
-        </div>
-        <hr class="hr">
-        <h4 class="pt-4 pb-3 pl-4 text-info">Phương án:</h4>
-        <div class="row justify-content-center">
-            <div class="pb-5 pr-5">
-                <br>
-                <img src="cautraloi.png" width="120%">
-                <br>
-                <br>
-            </div>
-        </div>
-    </div>
-    <div class="container mb-3 shadow rounded">
-        <div class="row bg-light d-flex">
-            <div>
-              <h4 class="pt-4 pb-3 pl-5 text-info">Đi Đến Câu: <select style="font-size:15px; height: 30px; width:50px; margin-left: 15px;"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option><option>32</option><option>33</option><option>34</option><option>35</option><option>36</option><option>37</option><option>38</option><option>39</option><option>40</option></select></h4>
-            </div>
-            <div class="ml-auto mr-5">
-              <button class="mt-4 mb-3 pl-5 btn-blue shadow mr-5"><strong>Câu kế >></strong></button>
-            </div>
-        </div>
-    </div>
+            <div class="row">
+                <div class="col-6" id="teacher-info">
 
-    <footer class="text-center text-light bg-custom-green mt-n10 my-5">
+                </div>
+                <div class="col-6" id="rating">
+                    <p><strong>Đánh giá:</strong></p>
+                    <div class="d-flex stars">
+                        <img src="giao tiep nguoi may/star.png" class="img-32">
+                        <img src="giao tiep nguoi may/star.png" class="img-32">
+                        <img src="giao tiep nguoi may/star.png" class="img-32">
+                        <img src="giao tiep nguoi may/star.png" class="img-32">
+                        <img src="giao tiep nguoi may/star_empty.png" class="img-32">
+                    </div>
+                    <p><strong>Lượt: </strong>24800</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6" id="teacher-info">
+                    <p><strong>Sơ lược giáo viên:</strong></p>
+                    <p>Họ và tên:Nguyễn Văn Anh.</p>
+                    <p>Trường: Phú Nhuận.</p>
+                    <p>Thành tích: Gíao viên ưu tú 10 năm liên tục.</p>
+                </div>
+                <div class="col-6" id="test-require">
+                    <p><strong>Yêu cầu:</strong></p>
+                    <p>Chuẩn bị tài liệu liên quan.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <a href="./BaiHoc.html" target="_blank" class="btn rounded shadow bg-custom-deep-blue text-light">HỌC BÀI</a>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-light bg-custom-green mt-n10">
         <p>Copyright © 2019 UIT ®</p>
     </footer>
 </body>
