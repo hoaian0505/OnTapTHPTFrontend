@@ -373,6 +373,8 @@ a:active {
   position: absolute;
   margin-left:-35px;
   padding-top:15px;
+  width:120px;
+  height:130px;
 }
 
 .divTitleProfile{
@@ -416,4 +418,8 @@ a:active {
 .imageBaiHoc{
   height: 100%;
   width: 100%;
+}
+
+.HomeNoBorder{
+  border:none;
 }
