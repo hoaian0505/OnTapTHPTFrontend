@@ -199,7 +199,7 @@ footer{
   overflow-y: hidden;
 }
 #tests-title-list{
-  max-height:620px;
+  max-height:695px;
   overflow:auto;
 }
 #tests-title-list-2{
@@ -207,7 +207,7 @@ footer{
   overflow:auto;
 }
 #tests-title-list-3{
-  max-height:500px;
+  max-height:550px;
   overflow:auto;
 }
 #tests-title-list::-webkit-scrollbar{
@@ -422,4 +422,8 @@ a:active {
 
 .HomeNoBorder{
   border:none;
+}
+
+.TextOnLeft{
+  text-align: left;
 }
