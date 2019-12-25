@@ -371,10 +371,11 @@ a:active {
 
 .imgProfle{
   position: absolute;
-  margin-left:-35px;
-  padding-top:15px;
-  width:120px;
-  height:130px;
+  margin-left:-75px;
+  margin-top:-30px;
+  padding-top:10px;
+  width:160px;
+  height:170px;
 }
 
 .divTitleProfile{
@@ -426,4 +427,10 @@ a:active {
 
 .TextOnLeft{
   text-align: left;
+}
+
+.kernelNumber{
+  letter-spacing: 2px;
+  line-height: 2.1em;
+  font-weight: 400;
 }
