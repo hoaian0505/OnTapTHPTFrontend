@@ -141,20 +141,20 @@ body {
 }
 
 #lesson, #upload-lesson, #upload-test, #test {
-  padding-bottom: 5rem;
+  padding-bottom: 5%;
 }
 
 #lesson h1, #upload-lesson h1, #upload-test h1, #test h1 {
-  padding-top: 5rem;
+  padding-top: 5%;
   font-size: 72px;
 }
 
 #lesson p:first-child, #upload-lesson p:first-child, #upload-test p:first-child, #test p:first-child {
-  margin-top: 5rem;
+  margin-top: 5%;
 }
 
 #lesson p, #upload-lesson p, #upload-test p, #test p {
-  padding-top: 3rem;
+  padding-top: 3%;
   font-size: 30px;
 }
 footer{
@@ -334,7 +334,6 @@ a:active {
 }
 
 .iconCheckGreen{
-  font-size:24px; 
   color:green;
 }
 
@@ -433,4 +432,97 @@ a:active {
   letter-spacing: 2px;
   line-height: 2.1em;
   font-weight: 400;
+}
+
+.iconBack{
+  color:blueviolet;
+  font-size: 32px;
+}
+
+.selectPage{
+  font-size:15px;
+  height: 30px; 
+  width:50px;
+  margin-left: 15px;
+}
+
+.Home{
+  height: 72px;
+}
+
+.iconAnswer{
+  font-size:24px;
+}
+
+@media (max-width: 576px) { 
+  .iconAnswer{
+    font-size: 3vw;
+  }
+  .selectPage{
+    font-size:3vw;
+    height: 5vw; 
+    width: 8vw;
+    margin-left: 3vw;
+  }
+  .form-check-input{
+    margin-top:0px;
+  }
+  .img-32{
+    height: 4vw;
+    width: 4vw;
+  }
+  .Home{
+    height: 10vw;
+  }
+  h1{
+    font-size: 7vw !important;
+  }
+  h2{
+    font-size: 5vw;
+  }
+  h3{
+    font-size:3vw;
+  }
+  h4{
+    font-size:2.5vw;
+  }
+  h5{
+    font-size: 2vw;
+  }
+  .mr-3{
+    padding-right: 2% !important;
+  }
+
+  .pt-5{
+    padding-top: 4% !important;
+  }
+  
+  .mt-5{
+    margin-top: 4% !important;
+  }
+  
+  .ml-5{
+    margin-left:4% !important;
+  }
+
+  .mr-5{
+    margin-right: 4% !important;
+  }
+
+  p{
+    font-size: 1.5vw !important;
+  }
+
+  div{
+    font-size: 1.5vw !important;
+  }
+
+  #test-info p, #teacher-info p, #test-value p{
+    padding-left: 3vw !important;
+  }
+  .kernelNumber{
+    letter-spacing: 0.2vw;
+    line-height: 2vw;
+    font-weight: 400;
+  }
 }
