@@ -7,16 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>On Thi THPT</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-
     <script src="./bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <script src="./bootstrap-4.0.0-dist/js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-custom-green">
-        <a class="navbar-brand"  href="Home.HTML" target="_blank"><img src="logo.png" width="64" height="64"></a>
+        <a class="navbar-brand"  href="Home.html" target="_blank"><img src="logo.png" class ="Home"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,16 +23,16 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav justify-content-end">
-                <li class="nav-item my-2">
+                <li class="nav-item my-2 ">
                     <a class="nav-link active text-light" href="DanhSachDeThi.html" target="_blank">ĐỀ THI</a>
                 </li>
-                <li class="nav-item my-2">
+                <li class="nav-item my-2" >
                     <a class="nav-link text-light" href="DanhSachBaiHoc.html">BÀI HỌC</a>
                 </li>
-                <li class="nav-item my-2">
+                <li class="nav-item my-2 mx-1">
                     <a class="nav-link text-light" href="UpLoadBaiHoc.html">UPLOAD</a>
                 </li>
-                <li class="nav-item my-2">
+                <li class="nav-item my-2 mx-1">
                     <a class="nav-link text-light" href="ProfileHocSinh.html">PROFILE</a>
                 </li>
                 <li class="nav-item my-2 mr-5">
@@ -50,35 +49,35 @@
     <div class="container shadow rounded">
         <div class="">
             <div class="row">
-                <div class="col-sm-2 mt-1"><p class="mt-2 ml-5 ">Tên:</p></div>
-                <div class="col-sm-4 mt-1"><input class="ml-5 inputUpload"></div>
+                <div class="col-2 mt-1"><p class="mt-2 ml-5 ">Tên:</p></div>
+                <div class="col-4 mt-1"><input class="mt-2 ml-5 inputUpload"></div>
             </div>
             <div class="row">
-                <div class="col-sm-2"><p class="mt-2 ml-5">Biên soạn:</p></div>
-                <div class="col-sm-4"><input class="ml-5 inputUpload"></div>
+                <div class="col-2"><p class="mt-2 ml-5">Biên soạn:</p></div>
+                <div class="col-4"><input class="mt-2 ml-5 inputUpload"></div>
             </div>
             <div class="row">
-                <div class="col-sm-2"><p class="mt-2 ml-5">Bộ môn:</p></div>
-                <div class="col-sm-4"><select class="ml-5 selectUpload"><option>Toán</option><option>Văn</option><option>Vật Lý</option><option>Hoá Học</option></select></div>
+                <div class="col-2"><p class="mt-2 ml-5">Bộ môn:</p></div>
+                <div class="col-4"><select class="ml-5 selectUpload"><option>Toán</option><option>Văn</option><option>Vật Lý</option><option>Hoá Học</option></select></div>
             </div>
             <div class="row">
-                <div class="col-sm-2"><p class="mt-2 ml-5">Thời gian:</p></div>
-                <div class="col-sm-4"><select class="ml-5 selectUpload"><option>15 phút</option><option>30 phút</option><option>45 phút</option><option>60 phút</option><option>90 phút</option></select></div>
+                <div class="col-2"><p class="mt-2 ml-5">Thời gian:</p></div>
+                <div class="col-4"><select class="ml-5 selectUpload"><option>15 phút</option><option>30 phút</option><option>45 phút</option><option>60 phút</option><option>90 phút</option></select></div>
             </div>
             <div class="row">
-                <div class="col-sm-2"><p class="mt-2 ml-5">Năm:</p></div>
-                <div class="col-sm-4"><select class="ml-5 selectUpload"><option>2020</option><option>2019</option><option>2018</option><option>2017</option></select></div>
+                <div class="col-2"><p class="mt-2 ml-5">Năm:</p></div>
+                <div class="col-4"><select class="ml-5 selectUpload"><option>2020</option><option>2019</option><option>2018</option><option>2017</option></select></div>
             </div>
             <div class="row">
-                <div class="col-sm-6"><p class="mt-2 ml-5">Mô tả bài học:</p></div>
+                <div class="col-6"><p class="mt-2 ml-5">Mô tả bài học:</p></div>
                 <div class=""><p class="mt-2 ml-5">Yêu cầu:</p></div>
             </div>
             <div class="row">
-                <div class="col-sm-6"><textarea class="mt-2 ml-5" rows="8" cols="40"></textarea></div>
+                <div class="col-6"><textarea class="mt-2 ml-5" rows="8" cols="40"></textarea></div>
                 <div class=""><textarea class="mt-2 ml-5" rows="8" cols="40"></textarea></div>
             </div>
             <div class="row">
-                <div class="col-sm-8"><p class="mt-2 ml-5">Chọn file:</p></div>
+                <div class="col-8"><p class="mt-2 ml-5">Chọn file:</p></div>
                 <div class="ml-5 mb-5 pl-3"><input type="file" name="myFile" multiple></div>
             </div>
         </div>

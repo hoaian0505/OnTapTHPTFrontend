@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Test Advance Search</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.min.css" />
     <script src="./bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <script src="./bootstrap-4.0.0-dist/js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-custom-green">
-        <a class="navbar-brand" href="Home.html"><img src="logo.png" width="64" height="64"></a>
+        <a class="navbar-brand"  href="Home.html" target="_blank"><img src="logo.png" class ="Home"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,16 +23,16 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav justify-content-end">
-                <li class="nav-item my-2">
+                <li class="nav-item my-2 ">
                     <a class="nav-link active text-light" href="DanhSachDeThi.html" target="_blank">ĐỀ THI</a>
                 </li>
-                <li class="nav-item my-2">
+                <li class="nav-item my-2" >
                     <a class="nav-link text-light" href="DanhSachBaiHoc.html">BÀI HỌC</a>
                 </li>
-                <li class="nav-item my-2">
+                <li class="nav-item my-2 mx-1">
                     <a class="nav-link text-light" href="UpLoadBaiHoc.html">UPLOAD</a>
                 </li>
-                <li class="nav-item my-2">
+                <li class="nav-item my-2 mx-1">
                     <a class="nav-link text-light" href="ProfileHocSinh.html">PROFILE</a>
                 </li>
                 <li class="nav-item my-2 mr-5">
@@ -63,7 +63,7 @@
                     </div>
                     <div class="row">
                         <div class="col-2">
-                            <p class="search-form-title">Tên: </p>
+                            <p class="search-form-title">Bộ môn: </p>
                         </div>
                         <div class="col-10">
                             <span class="checkbox-form-1"><input type="checkbox"> Toán</span>
@@ -110,14 +110,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-2 mt-1">
                         <p class="search-form-title">Xếp theo: </p>
                     </div>
-                    <div class="col-10">
+                    <div class="col-10 mt-1">
                         <div class="row">
-                            <span class="checkbox-form-1 col-2"><input type="checkbox">Tên</span>
-                            <span class="checkbox-form col-2"><input type="checkbox">Đánh giá</span>
-                            <span class="checkbox-form col-3"><input type="checkbox">Ngày cập nhật</span>
+                            <span class="checkbox-form-1"><input type="checkbox">Tên</span>
+                            <span class="checkbox-form"><input type="checkbox">Đánh giá</span>
+                            <span class="checkbox-form"><input type="checkbox">Ngày cập nhật</span>
                         </div>
                     </div>
                 </div>
@@ -127,11 +127,11 @@
                     </div>
                     <div class="col-10">
                         <div class="row">
-                            <span class="checkbox-form-1 col-2"><input type="checkbox">Tổng</span>
-                            <span class="checkbox-form col-2"><input type="checkbox">12 tháng</span>
-                            <span class="checkbox-form col-2"><input type="checkbox">6 tháng</span>
-                            <span class="checkbox-form col-2"><input type="checkbox">3 tháng</span>
-                            <span class="checkbox-form col-2"><input type="checkbox">1 tháng</span>
+                            <span class="checkbox-form-1"><input type="checkbox">Tổng</span>
+                            <span class="checkbox-form"><input type="checkbox">12 tháng</span>
+                            <span class="checkbox-form"><input type="checkbox">6 tháng</span>
+                            <span class="checkbox-form"><input type="checkbox">3 tháng</span>
+                            <span class="checkbox-form"><input type="checkbox">1 tháng</span>
                         </div>
                     </div>
                 </div>
@@ -139,8 +139,8 @@
         </div>
         <div class="result">
             <div class="row search-result">
-                <div class="col-12 search-result-header">
-                    <p class="search-result-header-title">KẾT QUẢ TÌM KIẾM</p>
+                <div class="col-12 search-result-header p-1">
+                    <h3 class="search-result-header-title">KẾT QUẢ TÌM KIẾM</h3>
                 </div>
             </div>
             <div class="row search-result-content">

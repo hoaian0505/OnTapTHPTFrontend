@@ -287,7 +287,6 @@ footer{
   background: white;
   text-align: center;
   font-size: 22px;
-  line-height: 30px;
   padding-bottom: 200px;
 }
 
@@ -408,7 +407,6 @@ a:active {
   color: #000;
   padding:5px;
   font-weight: 700;
-  font-size:20px;
 }
 
 .DivKTBH{
@@ -454,7 +452,17 @@ a:active {
   font-size:24px;
 }
 
-@media (max-width: 576px) { 
+.setIconPos{
+  margin-bottom:-50px;
+}
+
+@media (max-width: 576px) {
+  .setIconPos{
+    margin-bottom:-8vw !important;
+  }
+  .iconBack{
+    font-size: 6vw;
+  }
   .iconAnswer{
     font-size: 3vw;
   }
@@ -496,7 +504,52 @@ a:active {
   .pt-5{
     padding-top: 4% !important;
   }
-  
+  .pt-4{
+    padding-top: 3% !important;
+  }
+  .pt-3{
+    padding-top: 2% !important;
+  }
+  .pt-2{
+    padding-top: 1% !important;
+  }
+  .pt-1{
+    padding-top: 0% !important;
+  }
+  .pb-5{
+    padding-bottom: 4% !important;
+  }
+  .pb-4{
+    padding-bottom: 3% !important;
+  }
+  .pb-3{
+    padding-bottom: 2% !important;
+  }
+  .pb-2{
+    padding-bottom: 1% !important;
+  }
+  .pb-1{
+    padding-bottom: 0% !important;
+  }
+  .pr-3{
+    padding-right: 2% !important;
+  }
+  .pl-3{
+    padding-left: 2% !important;
+  }
+  .px-3{
+    padding-right: 2% !important;
+    padding-left: 2% !important;
+  }
+  .p-1{
+    padding:0% !important;
+  }
+  .p-3{
+    padding:2% !important;
+  }
+  .p-5{
+    padding:4% !important;
+  }
   .mt-5{
     margin-top: 4% !important;
   }
@@ -524,5 +577,71 @@ a:active {
     letter-spacing: 0.2vw;
     line-height: 2vw;
     font-weight: 400;
+  }
+  .imgProfle{
+    margin-left:0px;
+    margin-top:0px;
+    padding-top:0px;
+    width: 14vw;
+    height: 14vw;
+  }
+  .iconSetting{
+    font-size: 3vw;
+  }
+  .checkbox-form{
+    padding-left: 3.5vw !important;
+  }
+  .search-form-title{
+    padding-left: 1vw !important;
+  }
+  .btn{
+    font-size: 2vw !important;
+  }
+  .bg-ketqua1{
+    padding-top: 6% !important;
+    padding-bottom: 10% !important;
+  }
+  .bg-ketqua2{
+    padding-top: 6% !important;
+    padding-bottom: 6% !important;
+    line-height: 0vw !important;
+  }
+  .linkToKetThucBaiHoc{
+    margin-top: -0.7vw !important;
+  }
+  .linkToBaiHoc{
+    margin-top: -0.5vw !important;
+  }
+  .col-5,.col-6{
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+  }
+}
+
+
+@media (min-width: 0px){
+  .navbar-expand-lg .navbar-collapse {
+      display: -webkit-box!important;
+      display: -ms-flexbox!important;
+      display: flex!important;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  }
+
+  .navbar-expand-lg {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }

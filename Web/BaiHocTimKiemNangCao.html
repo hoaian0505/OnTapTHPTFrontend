@@ -5,17 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>On Thi THPT</title>
+    <title>Test Advance Search</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.min.css" />
     <script src="./bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <script src="./bootstrap-4.0.0-dist/js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-custom-green">
-        <a class="navbar-brand" href="Home.html"><img src="logo.png" width="64" height="64"></a>
+        <a class="navbar-brand"  href="Home.html" target="_blank"><img src="logo.png" class ="Home"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,16 +23,16 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav justify-content-end">
-                <li class="nav-item my-2">
+                <li class="nav-item my-2 ">
                     <a class="nav-link active text-light" href="DanhSachDeThi.html" target="_blank">ĐỀ THI</a>
                 </li>
-                <li class="nav-item my-2">
+                <li class="nav-item my-2" >
                     <a class="nav-link text-light" href="DanhSachBaiHoc.html">BÀI HỌC</a>
                 </li>
-                <li class="nav-item my-2">
+                <li class="nav-item my-2 mx-1">
                     <a class="nav-link text-light" href="UpLoadBaiHoc.html">UPLOAD</a>
                 </li>
-                <li class="nav-item my-2">
+                <li class="nav-item my-2 mx-1">
                     <a class="nav-link text-light" href="ProfileHocSinh.html">PROFILE</a>
                 </li>
                 <li class="nav-item my-2 mr-5">
@@ -41,142 +41,161 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div class="bg-light mt-4">
-            <div class="row py-2">
-                <div class="col-2">Tên: </div>
-                <div class="col-10"><input placeholder="Tên đề..." class="rounded-30 fluid"></div>
-            </div>
-            <div class="row py-2">
-                <div class="col-2">Giáo viên:</div>
-                <div class="col-10"><input placeholder="Tên đề..." class="rounded-30 fluid"></div>
-            </div>
-            <div class="row py-2">
-                <div class="col-2">Bộ môn</div>
-                <div class="col-10">
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio" checked>Toán
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio">Văn
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio">Lý
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio">Hóa
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio">Địa
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio">Sử
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio">Anh
-                    </label>
+    <div class="container my-3 rounded">
+        <div class="content">
+            <form>
+                <div class="search-div-custom">
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Tên: </p>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="search-form">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Giáo viên: </p>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="search-form">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Bộ môn: </p>
+                        </div>
+                        <div class="col-10">
+                            <span class="checkbox-form-1"><input type="checkbox"> Toán</span>
+                            <span class="checkbox-form"><input type="checkbox"> Văn</span>
+                            <span class="checkbox-form"><input type="checkbox"> Lý</span>
+                            <span class="checkbox-form"><input type="checkbox"> Hóa</span>
+                            <span class="checkbox-form"><input type="checkbox"> Địa</span>
+                            <span class="checkbox-form"><input type="checkbox"> Sử</span>
+                            <span class="checkbox-form"><input type="checkbox"> Anh</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Số slide: </p>
+                        </div>
+                        <div class="col-10">
+                            <select name="" id="">
+                                <option value="greater">lớn hơn</option>
+                                <option value="less">nhỏ hơn</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <p class="search-form-title">Năm: </p>
+                        </div>
+                        <div class="col-10">
+                            <select name="" id="">
+                                <option value="greater">lớn hơn</option>
+                                <option value="less">nhỏ hơn</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row py-2">
-                <div class="col-2">Số slide:</div>
-                <div class="col-3">
-                    <select class="form-control" id="select-1">
-                        <option>Lớn hơn</option>
-                        <option>Nhỏ hơn</option>
-                        <option>Bằng</option>
-                    </select>
+                <div class="row">
+                    <div class="col-2 mt-1">
+                        <p class="search-form-title">Xếp theo: </p>
+                    </div>
+                    <div class="col-10 mt-1">
+                        <div class="row">
+                            <span class="checkbox-form-1"><input type="checkbox">Tên</span>
+                            <span class="checkbox-form"><input type="checkbox">Đánh giá</span>
+                            <span class="checkbox-form"><input type="checkbox">Ngày cập nhật</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3"><input type="number" min="0" /></div>
-            </div>
-            <div class="row py-2">
-                <div class="col-2">Năm:</div>
-                <div class="col-3">
-                    <select class="form-control" id="select-1">
-                        <option>Lớn hơn</option>
-                        <option>Nhỏ hơn</option>
-                        <option>Bằng</option>
-                    </select>
+                <div class="row">
+                    <div class="col-2">
+                        <p class="search-form-title">Xếp theo lượt: </p>
+                    </div>
+                    <div class="col-10">
+                        <div class="row">
+                            <span class="checkbox-form-1"><input type="checkbox">Tổng</span>
+                            <span class="checkbox-form"><input type="checkbox">12 tháng</span>
+                            <span class="checkbox-form"><input type="checkbox">6 tháng</span>
+                            <span class="checkbox-form"><input type="checkbox">3 tháng</span>
+                            <span class="checkbox-form"><input type="checkbox">1 tháng</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3"><input type="number" min="2000" /></div>
-            </div>
+            </form>
         </div>
-        <div class="my-2">
-            <div class="row">
-                <div class="col-2">Xếp theo:</div>
-                <div class="col-10">
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio" checked>Tên
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio">Đánh giá
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="optradio">Ngày cập nhật
-                    </label>
+        <div class="result">
+            <div class="row search-result">
+                <div class="col-12 search-result-header p-1">
+                    <h3 class="search-result-header-title">KẾT QUẢ TÌM KIẾM</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-2">Xếp theo lượt:</div>
-                <div class="col-10">
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="luotRadio" checked>Tổng
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="luotRadio">12 tháng
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="luotRadio">6 tháng
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="luotRadio">3 tháng
-                    </label>
-                    <label class="radio-inline px-3">
-                        <input type="radio" name="luotRadio">1 tháng
-                    </label>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <h5><strong><p>Xác suất thống kê</p></strong>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: THPT Phú Nhuận</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
                 </div>
             </div>
-        </div>
-        <div>
-            <h3 class="py-3 text-center text-light bg-custom-deep-blue">KẾT QUẢ TÌM KIẾM</h3>
-            <div class="row my-4">
-                <div class="col-4"><h5><strong>Xác suất thống kê</strong></h5></div>
-                <div class="col-4">THPT Nguyễn Thượng Hiền</div>
-                <div class="col-4 text-danger text-center">New!</div>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <h5><strong><p>Xác suất thống kê</p></strong>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: Bộ GD&DT</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
+                </div>
             </div>
-            <div class="row my-4">
-                <div class="col-4"><h5><strong>Xác suất thống kê</strong></h5></div>
-                <div class="col-4">THPT Phú Nhuận</div>
-                <div class="col-4 text-danger text-center">New!</div>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <h5><strong><p>Xác suất thống kê</p></strong>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: THPT Gia Định</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
+                </div>
             </div>
-            <div class="row my-4">
-                <div class="col-4"><h5><strong>Xác suất thống kê</strong></h5></div>
-                <div class="col-4">THPT Gia Định</div>
-                <div class="col-4 text-danger text-center">New!</div>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <h5><strong><p>Xác suất thống kê</p></strong>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: Bộ GD&DT</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
+                </div>
             </div>
-            <div class="row my-4">
-                <div class="col-4"><h5><strong>Xác suất thống kê</strong></h5></div>
-                <div class="col-4">THPT Trần Đại Nghĩa</div>
-                <div class="col-4 text-danger text-center">New!</div>
-            </div>
-            <div class="row my-4">
-                <div class="col-4"><h5><strong>Xác suất thống kê</strong></h5></div>
-                <div class="col-4">THPT Lý Tự Trọng</div>
-                <div class="col-4 text-danger text-center">New!</div>
-            </div>
-            <div class="row my-4">
-                <div class="col-4"><h5><strong>Xác suất thống kê</strong></h5></div>
-                <div class="col-4">THPT Nguyễn Hiền</div>
-                <div class="col-4 text-danger text-center">New!</div>
-            </div>
-            <div class="row my-4">
-                <div class="col-4"><h5><strong>Xác suất thống kê</strong></h5></div>
-                <div class="col-4">THPT Nguyễn Thượng Hiền</div>
-                <div class="col-4 text-danger text-center">New!</div>
-            </div>
-            <div class="row my-4">
-                <div class="col-4"><h5><strong>Xác suất thống kê</strong></h5></div>
-                <div class="col-4">THPT Võ Thị Sáu</div>
-                <div class="col-4 text-danger text-center">New!</div>
+            <div class="row search-result-content">
+                <div class="col-4 search-result-content-1">
+                    <h5><strong><p>Xác suất thống kê</p></strong>
+                </div>
+                <div class="col-4">
+                    <p>Biên soạn: Bộ GD&DT</p>
+                </div>
+                <div class="col-4">
+                    <i>
+                        <p class="text-danger">New!</p>
+                    </i>
+                </div>
             </div>
         </div>
     </div>
